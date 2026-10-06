@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+	
+})
 basic.forever(function () {
-    music.play(music.stringPlayable("C5 - - A E B - G ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("C5 - - A E B - G ", 120), music.PlaybackMode.LoopingInBackground)
 })
